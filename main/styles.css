@@ -1,0 +1,206 @@
+body {
+    background-color: #ff914d;
+}
+.grid-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 625px 1fr;
+}
+.credits{
+    font-family: monospace;
+    font-size: 15px;
+}
+label {
+    width: 145px;
+    height: 25px;
+    display: inline-block;
+}
+h1 {
+    text-align: right;
+    font-style: 'Andale Mono', monospace;
+}
+.prod-name{
+    font-style: 'Courier', monospace;
+    font-weight: normal;
+    text-align: center;
+    margin: 0 0 1px;
+    padding: 0;
+}
+pre {
+    font-style: 'Gill Sans', serif;
+    font-weight: normal;
+}
+.column-right{
+    height: 700px;
+    position: relative;
+    align-items: center;
+}
+.row {
+    display: flex;
+    padding: 0;
+}
+.col-5 {
+    position: right;
+    box-sizing: border-box;
+}
+.MenuButtonL{
+    width: 158px;
+    height: 145px;
+    position: relative;
+    padding: 0;
+    margin: 0 3px 0 10px;
+    box-sizing: border-box;
+    border: pink;
+}
+.MenuButtonM{
+    width: 160px;
+    height: 145px;
+    position: relative;
+    padding: 0;
+    margin: 0 0px 0 15px;
+}
+.MenuButtonR{ 
+    width: 160px;
+    height: 145px;
+    position: relative;
+    padding: 0;
+    margin: 0 10px 0 13px;
+}
+fieldset{
+    border: 2px solid silver;
+    align-items: center;
+    padding-left: 6px;
+    padding-right: 0;
+}
+.CashRcvd{
+    height: 90px;
+    margin-left: 3px;
+    margin-top: 5px;
+}
+#CashRndrd {
+    font-size: 35px;
+    text-align: center;
+}
+#Change {
+    font-size: 35px;
+    text-align: center;
+    background-color: white;
+}
+#NameItem {
+    background-color: white;
+}
+#price {
+    background-color: white;
+}
+#DiscAmnt {
+    background-color: white;
+}
+#DiscedAmnt {
+    background-color: white;
+}
+#TotQty {
+    background-color: white;
+}
+#TotDisc {
+    background-color: white;
+}
+#TotDiscedAmt {
+    background-color: white;
+}
+.Calc-Container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 200px 1fr;
+}
+.btnEnter{
+    margin: 5px 2px;
+    padding: 60px 50px; 
+    border: 3px solid silver;
+    cursor: pointer;
+    background-color: #b30a0a;
+    font-size: 25px;
+    font-weight: bold;
+}
+.row-Calc{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.col-4{
+    position: relative;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+.btnOprtn{
+    margin: 5px 2px 0;
+    padding: 2px 40px; 
+    border: 3px solid silver;
+    cursor: pointer;
+    background-color: #b30a0a;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+.btnNum{
+    margin: 5px 2px 0;
+    padding: 2px 40px; 
+    border: 3px solid silver;
+    cursor: pointer;
+    background-color: #b30a0a;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+.btnZero{
+    margin: 5px 2px 0;
+    padding: 2px 40px; 
+    border: 3px solid silver;
+    cursor: pointer;
+    background-color: #b30a0a;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+.btnBS{
+    margin: 5px 2px 0;
+    padding: 0 33px; 
+    border: 3px solid silver;
+    cursor: pointer;
+    background-color: #b30a0a;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+.btnDot{
+    margin: 5px 2px 0;
+    padding: 0 41.5px; 
+    border: 3px solid silver;
+    cursor: pointer;
+    background-color: #b30a0a;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+}
+.transact{
+    margin-top: 7px;
+}
+.cash{
+    margin : 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+.TDA {
+    width: 175px;
+}
+.choices {
+    width: 105px;
+  }
+.btn {
+    width: 130px;
+  }

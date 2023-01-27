@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    background-color: rgb(209, 209, 181);
+    background-image: url("bg.webp");
+    background-repeat: auto;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+fieldset {
+    margin: 40px 20px 40px;
+    text-align: center;
+    text-decoration-color: black;
+}
+#signup {
+    backdrop-filter: blur(8px);
+}
+#login {
+    backdrop-filter: blur(8px);
+}
+legend{
+    float: none;
+}
+p{
+    background-color: rgb(167, 141, 141);
+}

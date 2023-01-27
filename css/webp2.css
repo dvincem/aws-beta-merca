@@ -1,0 +1,29 @@
+body {
+    background-color: #EDE1CF;
+    font-family: sans-serif;
+    padding: 20px;
+  }
+
+#emppic{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+} 
+#empdetails5 input{
+    text-align: center;
+    width: 100%;
+}
+#empdetails3 label, #empdetails4 label,#empdetails5 label,#empdetails6 label, #empdetails7 label,
+#empdetails8 label, #empdetails9 label {
+    text-align: left;
+    font-size: 15px;
+    width: 40%;
+}   
+#empdetails3 input, #empdetails4 input,#empdetails5 input,#empdetails6 input, #empdetails7 input,
+#empdetails8 input, #empdetails9 input {
+    text-align: left;
+    width: 60%;
+} 
+legend{
+    float: none;
+}

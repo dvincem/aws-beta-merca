@@ -1,0 +1,353 @@
+body {
+    background-color: #ff7300;
+}
+.grid-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 625px 1fr;
+}
+.credits{
+    font-family: monospace;
+    font-size: 15px;
+}
+label {
+    width: 145px;
+    height: 25px;
+    display: inline-block;
+}
+::placeholder {
+    color: black;
+}
+.details{
+    color: black;
+    border-color: gray;
+}
+.Amntdetails{
+    color: black;
+    border-color: gray;
+}
+.SumAmntdetails{
+    color: black;
+    border-color: gray;
+    font-weight: bold;
+}
+h1 {
+    text-align: right;
+    font-style: 'Andale Mono', monospace;
+}
+.prod-name{
+    font-style: 'Courier', monospace;
+    font-weight: normal;
+    text-align: center;
+    margin: 0 0 1px;
+    padding: 0;
+}
+pre {
+    font-style: 'Gill Sans', serif;
+    font-weight: normal;
+}
+.column-right{
+    height: 700px;
+    position: relative;
+    align-items: center;
+}
+.row {
+    display: flex;
+    padding: 0;
+}
+.col-5 {
+    position: right;
+    box-sizing: border-box;
+}
+input[name=PZ1] {
+    background-image: url("images/1.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+input[name=PZ2] {
+    background-image: url("images/2.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+input[name=PZ3] {
+    background-image: url("images/3.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+input[name=PZ4] {
+    background-image: url("images/4.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+input[name=PZ5] {
+    background-image: url("images/5.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+input[name=PZ6] {
+    background-image: url("images/6.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+input[name=PZ7] {
+    background-image: url("images/7.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+input[name=PZ8] {
+    background-image: url("images/8.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+input[name=PZ9] {
+    background-image: url("images/9.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+input[name=PZ10] {
+    background-image: url("images/10.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+input[name=PZ11] {
+    background-image: url("images/11.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+input[name=PZ12] {
+    background-image: url("images/12.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+input[name=PZ13] {
+    background-image: url("images/13.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+input[name=PZ14] {
+    background-image: url("images/14.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+input[name=PZ15] {
+    background-image: url("images/15.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+input[name=PZ16] {
+    background-image: url("images/16.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+input[name=PZ17] {
+    background-image: url("images/17.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+input[name=PZ18] {
+    background-image: url("images/18.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+input[name=PZ19] {
+    background-image: url("images/19.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+input[name=PZ20] {
+    background-image: url("images/20.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.MenuButtonL{
+    width: 160px;
+    height: 145px;
+    position: relative;
+    padding: 0;
+    margin: 0 3px 0 10px;
+    box-sizing: border-box;
+    border-color: gray;
+}
+.MenuButtonM{
+    width: 160px;
+    height: 145px;
+    position: relative;
+    padding: 0;
+    margin: 0 0px 0 15px;
+    border-color: gray;
+}
+.MenuButtonR{ 
+    width: 160px;
+    height: 145px;
+    position: relative;
+    padding: 0;
+    margin: 0 10px 0 13px;
+    border-color: gray;
+}
+fieldset{
+    border: 2px solid silver;
+    align-items: center;
+    padding-left: 6px;
+    padding-right: 0;
+}
+.CashRcvd{
+    height: 90px;
+    margin-left: 3px;
+    margin-top: 5px;
+    color: black;
+}
+#CashRndrd {
+    font-size: 35px;
+    text-align: center;
+}
+#Change {
+    font-size: 35px;
+    text-align: center;
+    background-color: white;
+}
+#NameItem {
+    background-color: white;
+}
+#price {
+    background-color: white;
+}
+#DiscAmnt {
+    background-color: white;
+}
+#DiscedAmnt {
+    background-color: white;
+}
+#TotAmnt {
+    background-color: white;
+}
+#TotQty {
+    background-color: white;
+}
+#TotDisc {
+    background-color: white;
+}
+#TotAmt {
+    background-color: white;
+}
+.Calc-Container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 200px 1fr;
+}
+.btnEnter{
+    margin: 5px 2px;
+    padding: 60px 50px; 
+    border: 3px solid silver;
+    cursor: pointer;
+    background-color: #B5874A;
+    font-size: 25px;
+    font-weight: bold;
+}
+.row-Calc{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.col-4{
+    position: relative;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+.btnOprtn{
+    margin: 5px 2px 0;
+    padding: 2px 40px; 
+    border: 3px solid silver;
+    cursor: pointer;
+    background-color: #B5874A;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+.btnNum{
+    margin: 5px 2px 0;
+    padding: 2px 40px; 
+    border: 3px solid silver;
+    cursor: pointer;
+    background-color: #B5874A;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+.btnZero{
+    margin: 5px 2px 0;
+    padding: 2px 40px; 
+    border: 3px solid silver;
+    cursor: pointer;
+    background-color: #B5874A;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+.btnBS{
+    margin: 5px 2px 0;
+    padding: 0 33px; 
+    border: 3px solid silver;
+    cursor: pointer;
+    background-color: #B5874A;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+.btnDot{
+    margin: 5px 2px 0;
+    padding: 0 41.5px; 
+    border: 3px solid silver;
+    cursor: pointer;
+    background-color: #B5874A;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+}
+.transact{
+    margin-top: 7px;
+}
+.cash{
+    margin : 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+.TDA {
+    width: 175px;
+}
+.choices {
+    width: 105px;
+  }
+.btn {
+    width: 130px;
+  }
+.btnn {
+    width: 130px;
+    margin-right: 0;
+  }
+ 
